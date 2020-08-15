@@ -1,0 +1,9 @@
+.footer {
+  color: white;
+  background-color: black;
+  padding: 30px;
+}
+
+.footer > h2 {
+  text-align: center;
+}
