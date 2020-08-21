@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #222222;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-bottom: 7px solid rgb(104, 104, 228);
+}
+
+.header h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  margin: 15px 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.header li {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.header a {
+  margin-left: 10px;
+  background-color: white;
+  padding: 8px;
+  color: #222222;
+  text-decoration: none;
+}
+
+.header a:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+.header .header__navlink--selected {
+  color: rgb(104, 104, 228);
+  border-bottom: 3px solid rgb(104, 104, 228);
+}
+.dashboard__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eeeeee;
+  margin: 60px;
+  padding: 40px;
+}
+
+.dashboard__container img {
+  margin-top: 20px;
+  max-width: 700px;
+}
+
+.message__container {
+  background-color: #eeeeee;
+  margin: 60px;
+  padding: 40px;
+  color: rgb(104, 104, 228);
+  text-align: center;
+  border: 6px dashed #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.message__container img {
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #222222;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  border-top: 5px solid rgb(104, 104, 228);
+}
+
+.users {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.users__list > ul {
+  list-style: none;
+}
+
+.users__list > ul > li {
+  background: #eeeeee;
+  padding: 20px;
+  margin: 10px;
+  width: 50vw;
+}
+
+.users__input {
+  background-color: #eeeeee;
+  padding: 20px;
+  margin: 20px 0;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+}
+
+.users__input input {
+  border: none;
+  padding: 10px;
+}
+
+.users__input button {
+  border: none;
+  padding: 10px;
+  background-color: rgb(104, 104, 228);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.about {
+  background-color: #eeeeee;
+  margin: 40px;
+  padding: 80px;
+}
+
+.about > h2 {
+  margin-bottom: 40px;
+  font-family: montserrat;
+  font-weight: 600;
+  color: rgb(104, 104, 228);
+}
+
+.about > p {
+  font-family: montserrat;
+}
